@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const { getConnection, closeConnection } = require('./init_DB_Server/init_DB_Server.jsx');
+const { getConnection, closeConnection } = require('./init_DB_Server.jsx');
 
 ////////////////// API 1 /////////////////////////
 app.get('/', async (req, res) => {
