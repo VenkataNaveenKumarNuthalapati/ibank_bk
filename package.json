@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "ibank.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon school.jsx"
+    "start": "nodemon ibank.jsx"
   },
   "keywords": [],
   "author": "",
