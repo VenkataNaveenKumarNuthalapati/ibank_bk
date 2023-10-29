@@ -1,0 +1,35 @@
+
+###
+POST http://localhost:5000/register/
+Content-Type: application/json
+
+{
+  "username": "kumarnaveen4089",
+  "password": "Naveen94089",
+  "name": "Naveen Kumar",
+  "gender": "M"
+}
+
+###
+POST http://localhost:5000/register/
+Content-Type: application/json
+
+{
+  "username": "komalinaveen4089",
+  "password": "komali4029",
+  "name": "Komali",
+  "gender": "F"
+}
+
+###
+POST http://localhost:5000/login/
+Content-Type: application/json
+
+{
+  "username": "kumarnaveen4089",
+  "password": "Naveen94089"
+}
+
+###
+GET http://localhost:5000/accounts/118
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imt1bWFybmF2ZWVuNDA4OSIsImlhdCI6MTY5ODUxMjczNX0.J9K2lNRecGJRkSyhLjipa_ogmhfTndwhZuQeNegVR7U
